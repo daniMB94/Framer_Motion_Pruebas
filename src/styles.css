@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 400px;
+  position: relative;
+  margin: 0; /* Eliminar cualquier margen en el contenedor */
+  padding: 0; /* Eliminar cualquier padding en el contenedor */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 0; /* Asegurar que no haya márgenes adicionales */
+  padding: 0; /* Asegurar que no haya padding adicional */
+  position: relative; /* Asegurar que la posición es relativa al contenedor */
+}
+
+.lower {
+  margin-top: 150px;
+}
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: -1;
+}
